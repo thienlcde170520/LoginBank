@@ -12,10 +12,4 @@ public class LoginManagerRepository implements ILoginManagerRepository{
     public void Login(Locale language) {
         LoginDao.Instance().login(language);
     }
-
-    @Override
-    public void login(Locale vietnamese) {
-        LoginDao.Instance().login(vietnamese);
-    }
-    
 }
